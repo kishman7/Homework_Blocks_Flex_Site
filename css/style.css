@@ -130,19 +130,133 @@ section {
     color: #5b2f01;
     font-family: "Arial";
 }
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
 article ul {
     padding: 0;
     margin: 0;
+    margin-top: 35px;
     list-style: none;
     display: flex;
+    flex-direction: column;
+    display: flex;
     justify-content: space-between;
+    
 }
 .artical-ul-li {
     width: 67%;
     background-color: rgb(245, 225, 187);
     height: 370px;
+    margin: 0;
 }
-.artical-ul-li-2 {
+.blog {
+    width: 33.3%;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+artical ul li ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+} 
+.artical-ul-li ul {
+    margin: 0;
+    padding: 0;
+    
+}
+.show_menu {
+    margin: 0;
+    padding: 0;
+}
+.show_menu header {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #5b2f01;
+    font-weight: bold;
+    font-family: "Georgia";
+    text-transform: uppercase;
+}
+.show-menu-foto {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: left;
+    width: 165px;
+    height: 100px;
+}
+.show_menu_text {
+    width: 640px;
+    height: 114px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #5b2f01;
+    font-family: "Arial";
+}
+.header_blog {
+    font-size: 18px;
+    line-height: 24px;
+    color: #5b2f01;
+    font-weight: bold;
+    font-family: "Georgia";
+    text-align: left;
+    margin-left: 15px;
+}
+.p-blog {
+    width: 290px;
+    height: 292px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #5b2f01;
+    /* font-weight: bold; */
+    font-family: "Arial";
+    margin-left: 15px;
+}
+.line {
+    border-bottom: 1px dashed #5b2f01;
+    width: 90%;
+    size: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.menu-footer {
     width: 33%;
-
+}
+.social-media {
+    width: 25%;
+}
+.menu-footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #9b7954;
+    font-family: "Arial";
+}
+.social-media ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #9b7954;
+    font-family: "Arial";
+}
+.copyright {
+    font-size: 14px;
+    color: #9b7954;
+    font-family: "Arial";
+    text-align: center;
+    margin-top: 15px;
 }
